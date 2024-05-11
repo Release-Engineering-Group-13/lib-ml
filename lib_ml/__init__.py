@@ -1,2 +1,2 @@
-from preprocessing import preprocess_dataset
-from preprocessing import preprocess_input
+from .preprocessing import preprocess_dataset
+from .preprocessing import preprocess_input
