@@ -20,8 +20,8 @@ setup(
     ],
     install_requires=[
         'joblib',
-        'tensorflow.keras.preprocessing',
-        'sklearn.preprocessing',
+        'tensorflow',
+        'sklearn',
     ],
     python_requires=">=3.10",
 )
