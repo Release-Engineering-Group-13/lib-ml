@@ -4,7 +4,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="lib-ml",
+    name="lib_ml",
     description="URL Phishing data preprocessing library",
     packages=find_packages(),
     long_description=long_description,
