@@ -21,7 +21,8 @@ setup(
     install_requires=[
         'joblib',
         'tensorflow',
-        'sklearn',
+        'scikit-learn',
+        'sklearn-preprocessing',
     ],
     python_requires=">=3.10",
 )
