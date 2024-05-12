@@ -63,7 +63,7 @@ def tokenize_input(raw_x):
     char_index = tokenizer.word_index
 
     sequence_length = 200
-    x_tokenized = pad_sequences(tokenizer.texts_to_sequences(raw_x), maxlen=sequence_length)
+    x_tokenized = pad_sequences(tokenizer.texts_to_sequences([raw_x]), maxlen=sequence_length)
 
     return char_index, x_tokenized
 
