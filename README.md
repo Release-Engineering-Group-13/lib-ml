@@ -2,7 +2,7 @@
 Package for preprocessing ML data
 
 ## Installation
-Run the following in a terminal (you might need a virtual environment). Replace the VERSION_TAG at the end with a version, preferably the most recent (v1.0.0)
+Run the following in a terminal (you might need a virtual environment). Replace the VERSION_TAG at the end with a version, preferably the most recent
 ```bash
 pip install git+https://github.com/Release-Engineering-Group-13/lib-ml.git@VERSION_TAG
 ```
